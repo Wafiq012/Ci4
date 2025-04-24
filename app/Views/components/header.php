@@ -27,7 +27,7 @@
 
     <li class="nav-item dropdown">
 
-      <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+      <a class="nav-link nav-icon" href="" data-bs-toggle="dropdown">
         <i class="bi bi-bell"></i>
         <span class="badge bg-primary badge-number">4</span>
       </a><!-- End Notification Icon -->
@@ -146,7 +146,7 @@
 
         <li class="message-item">
           <a href="#">
-            <img src="assets/img/messages-3.jpg" alt="" class="rounded-circle">
+            <img src="" alt="" class="rounded-circle">
             <div>
               <h4>David Muldon</h4>
               <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
@@ -184,6 +184,7 @@
 
         <li>
           <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+            <img src="" alt="">
             <i class="bi bi-person"></i>
             <span>My Profile</span>
           </a>

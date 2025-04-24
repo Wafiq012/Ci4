@@ -13,6 +13,7 @@ class AuthController extends BaseController
     }
     public function login()
 {
+    $session = session();
     if ($this->request->getPost()) {
         $username = $this->request->getVar('username');
         $password = $this->request->getVar('password');
@@ -26,6 +27,8 @@ class AuthController extends BaseController
                     'role' => $dataUser['role'],
                     'isLoggedIn' => TRUE
                 ]);
+
+                $session->setFlashdata('logged_in', true);
 
                 return redirect()->to(base_url('/'));
             } else {
